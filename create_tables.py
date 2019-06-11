@@ -9,7 +9,7 @@ cursor.execute(create_table_query)
 create_table_query1 = "CREATE TABLE IF NOT EXISTS items(name text, price real)"
 cursor.execute(create_table_query1)
 
-cursor.execute("INSERT INTO items VALUES('test', 10.99)")
+# cursor.execute("INSERT INTO items VALUES('test', 10.99)")
 
 
 connection.commit()
